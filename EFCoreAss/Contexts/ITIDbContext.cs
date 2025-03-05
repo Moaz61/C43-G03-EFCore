@@ -13,7 +13,7 @@ namespace EFCoreAss.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-           optionsBuilder.UseSqlServer("Server = MOAZ\\MSSQLSERVER01; Database = ITI; Trusted_Connection = True; TrustServerCertificate = True");
+           optionsBuilder.UseSqlServer("Server = MOAZ\\MSSQLSERVER01; Database = ITIDb; Trusted_Connection = True; TrustServerCertificate = True");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
